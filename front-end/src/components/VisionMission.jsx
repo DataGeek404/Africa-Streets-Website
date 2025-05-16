@@ -1,5 +1,5 @@
-import visionImage from '../assets/5.jpg';
-import missionImage from '../assets/6.jpg';
+import visionImage from '../assets/IMG_9307.jpg';
+import missionImage from '../assets/IMG_9282.jpg';
 
 export function VisionMission() {
   return (
@@ -10,7 +10,7 @@ export function VisionMission() {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 mb-16 md:mb-20 items-center">
           {/* Content - Left */}
           <div className="flex flex-col justify-center md:pr-6">
-            <h3 className="text-[80px] md:text-[100px] lg:text-[120px] font-normal text-[#31AC6E] leading-[0.85] mb-4">
+            <h3 className="text-[80px] md:text-[80px] lg:text-[120px] font-bold text-[#31AC6E] leading-[0.85] mb-10">
               Our Vision
             </h3>
             <p className="text-md text-[#1D204B] max-w-[500px]">
@@ -20,11 +20,11 @@ export function VisionMission() {
           </div>
           
           {/* Image - Right */}
-          <div className="h-[350px] md:h-[450px] rounded-xl overflow-hidden shadow-lg">
+          <div className="w-full rounded-[10%] overflow-hidden shadow-lg">
             <img
               src={visionImage}
               alt="Our Vision illustration"
-              className="w-full h-full object-cover"
+              className="w-full h-auto object-contain"
             />
           </div>
         </div>
@@ -32,17 +32,17 @@ export function VisionMission() {
         {/* Bottom Section - Mission */}
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Image - Left */}
-          <div className="h-[350px] md:h-[450px] rounded-xl overflow-hidden shadow-lg">
+          <div className="w-full rounded-[10%] overflow-hidden shadow-lg">
             <img
               src={missionImage}
               alt="Our Mission in action"
-              className="w-full h-full object-cover"
+              className="w-full h-auto object-contain"
             />
           </div>
           
           {/* Content - Right */}
           <div className="flex flex-col justify-center md:pl-6">
-            <h3 className="text-[80px] md:text-[100px] lg:text-[120px] font-normal text-[#31AC6E] leading-[0.85] mb-4">
+            <h3 className="text-[70px] md:text-[70px] lg:text-[120px] font-bold text-[#31AC6E] leading-[0.85] mb-10">
               Our Mission
             </h3>
             <p className="text-md text-[#1D204B] max-w-[500px]">

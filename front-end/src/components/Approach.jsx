@@ -59,9 +59,9 @@ export function Approach() {
             </p>
           </div>
           <div className="flex flex-col md:flex-row gap-6 justify-center mt-6">
-            <img src={image1} alt="Content 1" className="w-full md:w-1/3 h-48 object-cover rounded-lg" />
-            <img src={image2} alt="Content 2" className="w-full md:w-1/3 h-48 object-cover rounded-lg" />
-            <img src={image3} alt="Content 3" className="w-full md:w-1/3 h-48 object-cover rounded-lg" />
+            <img src={image1} alt="Content 1" className="w-full md:w-1/3 h-70 object-cover rounded-[10%]" />
+            <img src={image2} alt="Content 2" className="w-full md:w-1/3 h-70 object-cover rounded-[10%]" />
+            <img src={image3} alt="Content 3" className="w-full md:w-1/3 h-70 object-cover rounded-[10%]" />
           </div>
         </div>
 
@@ -80,9 +80,9 @@ export function Approach() {
             </p>
           </div>
           <div className="flex flex-col md:flex-row gap-6 justify-center mt-6">
-            <img src={image4} alt="Content 4" className="w-full md:w-1/3 h-48 object-cover rounded-lg" />
-            <img src={image5} alt="Content 5" className="w-full md:w-1/3 h-48 object-cover rounded-lg" />
-            <img src={image6} alt="Content 6" className="w-full md:w-1/3 h-48 object-cover rounded-lg" />
+            <img src={image4} alt="Content 4" className="w-full md:w-1/3 h-70 object-cover rounded-[10%]" />
+            <img src={image5} alt="Content 5" className="w-full md:w-1/3 h-70 object-cover rounded-[10%]" />
+            <img src={image6} alt="Content 6" className="w-full md:w-1/3 h-70 object-cover rounded-[10%]" />
           </div>
         </div>
 
@@ -102,9 +102,9 @@ export function Approach() {
             </p>
           </div>
           <div className="flex flex-col md:flex-row gap-6 justify-center mt-6">
-            <img src={image7} alt="Content 7" className="w-full md:w-1/3 h-48 object-cover rounded-lg" />
-            <img src={image8} alt="Content 8" className="w-full md:w-1/3 h-48 object-cover rounded-lg" />
-            <img src={image9} alt="Content 9" className="w-full md:w-1/3 h-48 object-cover rounded-lg" />
+            <img src={image7} alt="Content 7" className="w-full md:w-1/3 h-70 object-cover rounded-[10%]" />
+            <img src={image8} alt="Content 8" className="w-full md:w-1/3 h-70 object-cover rounded-[10%]" />
+            <img src={image9} alt="Content 9" className="w-full md:w-1/3 h-70 object-cover rounded-[10%]" />
           </div>
         </div>
 

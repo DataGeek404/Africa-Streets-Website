@@ -1,4 +1,4 @@
-import image1 from '../assets/Rectangle 36.png'; // Add your two horizontal images
+import image1 from '../assets/peeps.jpg'; // Add your two horizontal images
 import image2 from '../assets/Rectangle 5.png';
 
 export function RootedLocally() {
@@ -13,21 +13,22 @@ export function RootedLocally() {
         </div>
 
         {/* Two Horizontal Images */}
-        <div className="flex justify-center gap-8 mb-12">
+        <div className="flex flex-wrap md:flex-nowrap justify-center items-center gap-6 mb-12 px-4">
           <img 
             src={image1} 
             alt="Local connection" 
-            className="h-60 md:h-80 w-auto object-cover rounded-xl shadow-lg"
+            className="h-60 md:h-80 w-auto object-cover rounded-[10%] shadow-lg"
           />
           <img 
             src={image2} 
             alt="Global connection" 
-            className="h-60 md:h-80 w-auto object-cover rounded-xl shadow-lg"
+            className="h-60 md:h-80 w-auto object-cover rounded-[10%] shadow-lg"
           />
         </div>
 
+
         {/* Centered Content */}
-        <div className="max-w-6xl mx-auto text-center mb-10">
+        <div className="max-w-6xl mx-auto text-center mb-20">
           <p className="text-gray-700 text-sm md:text-base leading-relaxed">
             Inspired by models like Street Medicine Ireland and other global street
             medicine programs, our team initiated a similar approach in Kenya.

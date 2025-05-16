@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import launchVideo from '../assets/vid1.mp4';
-import topImage from '../assets/Rectangle 56.png'; // Replace with your actual image path
+import topImage from '../assets/peeps2.jpg'; // Replace with your actual image path
 import lowerImage from '../assets/Rectangle 53.png'; // Replace with your actual image path
 
 export function LaunchSection() {
